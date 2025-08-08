@@ -1,0 +1,54 @@
+body {
+    background-color: #f8d3e0;
+    font-family: 'Cute Font';
+    text-align: center;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+p {
+    font-size: 30px
+}
+
+.container {
+    margin-top: 25px;
+}
+
+#cake {
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+#cake:active {
+    transform: scale(0.95);
+}
+
+.message-container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: #ff6f91;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.button-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
